@@ -6,8 +6,6 @@ var todoInput = document.getElementById("todo-input")
 var deleteAllButton = document.getElementById("delete-all")
 var allTodos = document.getElementById("all-todos");
 var deleteSButton = document.getElementById("delete-selected")
-
-
 //event listners for add and delete
 addButton.addEventListener("click", add)
 deleteAllButton.addEventListener("click", deleteAll)
